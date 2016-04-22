@@ -1,5 +1,7 @@
 #TODO: Import the module that will allow you to use Selenium
 #TODO: Import the module that will allow you to use the up, down, left, and right keys on your keyboard
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 
 def play2048( times ):
     #TODO: write code in this function that:
